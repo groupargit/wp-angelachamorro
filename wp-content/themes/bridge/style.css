@@ -1,0 +1,411 @@
+/*
+Theme Name: Bridge
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: Bridge Theme
+Tags: creative, portfolio, multi-purpose, clean, retina, responsive, parallax, mega menu, blog, agency, business, fullscreen, modern, background video, ajax
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 13.9
+License: GNU General Public License
+License URI: licence/GPL.txt
+
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+*/
+
+.separator.small {
+  width: 85px !important;
+  height: 3px !important;
+}
+#acercafondo {
+  z-index: 1 !important;
+  min-height: 650px;
+  background-image: url(http://www.angelachamorro.com/wp-content/uploads/2018/04/angela_Chamorro.jpg);
+}
+.acerca_texto {
+  z-index: 99999 !important;
+  margin-bottom: -640px !important;
+	background-image: url(https://www.angelachamorro.com/wp-content/uploads/2018/04/angela_Chamorro.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.video_about {
+
+    background: -moz-linear-gradient(270deg, rgba(137,205,223,1) 0%, rgba(137,205,223,1) 50%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(137,205,223,1)), color-stop(50%, rgba(137,205,223,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(270deg, rgba(137,205,223,1) 0%, rgba(137,205,223,1) 50%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(270deg, rgba(137,205,223,1) 0%, rgba(137,205,223,1) 50%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(270deg, rgba(137,205,223,1) 0%, rgba(137,205,223,1) 50%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(137,205,223,1) 0%, rgba(137,205,223,1) 50%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#89cddf', endColorstr='#ffffff',GradientType=0 );
+  }
+  .icon_star:before {
+
+      color: #dab73d !important;
+  }
+.testi_separator {
+  margin-bottom: -10px !important;
+  /* padding-bottom: 0 !important; */
+}
+.testi_separator h1 {
+  color: #00a5c1;
+
+
+
+}
+
+.page-id-14 .qode-tab-title-inner{
+  font-size: 14px;
+}
+
+.page-id-14 .preg_frec  {
+  background-color: #ecebe7 !important;
+}
+.page-id-8 .preg_frec  {
+    background-color: #eee8d3 !important;
+}
+
+
+ /* .page-id-8 .preg_frec {
+
+  background: url(http://www.angelachamorro.com/wp-content/uploads/2018/04/home-faq-bg.png);
+  /* position: absolute !important; */
+  /* right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  /* -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%); */
+  /* width: 359px; 
+  height: 680px;
+  background-position: center right !important;
+background-repeat: no-repeat !important;
+background-size: auto !important;
+} */
+
+
+.page-id-14 .preg_frec {
+
+ background: url(https://www.angelachamorro.com/wp-content/uploads/2018/04/home-faq-bg.png);
+ /* position: absolute !important; */
+ /* right: 0;
+ top: 50%;
+ transform: translateY(-50%);
+ /* -moz-transform: translateY(-50%);
+ -ms-transform: translateY(-50%);
+ -webkit-transform: translateY(-50%); */
+ width: 359px;
+ /* height: 680px;  */
+ background-position: center right !important;
+background-repeat: no-repeat !important;
+background-size: auto !important;
+}
+
+.page-id-8 .frec_colum2{
+  width: 75% !important;
+}
+.preg_image {
+  background-image: url(http://www.angelachamorro.com/wp-content/uploads/2018/05/angela-chamorro-servicios.jpg);
+  background-image: url(http://onelife.dttheme.com/wp-content/uploads/2016/06/fullwidth-faq.jpg?id=8748) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+
+ .page-id-8 .qode-accordion-holder {
+   width: 75% !important;
+ }
+
+  .page-id-8 .qode-accordion-holder .qode-title-holder,   .page-id-14 .qode-accordion-holder .qode-title-holder {
+    background: transparent !important;
+    border-bottom: 0 !important;
+        margin-top: 05px;
+  }
+
+.page-id-8  .qode-accordion-holder .qode-title-holder .qode-accordion-mark {
+    top: 0;
+    right: 6px;
+    display: inline-block;
+    vertical-align: top;
+    width: 50px !important;
+    height: 50px !important;
+    color: inherit;
+    box-sizing: border-box;
+    border: 1px solid #00a5c1;
+
+}
+
+.page-id-14 .qode-accordion-holder .qode-title-holder .qode-tab-title {
+  height: 55px !important;
+}
+
+.page-id-14  .qode-accordion-holder .qode-title-holder .qode-accordion-mark {
+   position: absolute;
+   top: 0;
+   /* right: -4px; */
+   display: inline-block;
+   vertical-align: top;
+   width: 30px !important;
+   height: 30px !important;
+   color: inherit;
+   box-sizing: border-box;
+   border: 1px solid #00a5c1;
+   top: 12px;
+   left: -25px;
+
+}
+.page-id-8  .qode-accordion-holder:hover, .qode-title-holder.ui-state-hover, .page-id-14 .qode-accordion-holder:hover, .qode-title-holder.ui-state-hover  {
+  color: #00a5c1 !important;
+}
+.page-id-8 .qode-accordion-holder .qode-title-holder.ui-state-active, .page-id-14 .qode-accordion-holder .qode-title-holder.ui-state-active {
+  color: #00a5c1;
+}
+.page-id-8 .qode-accordion-holder .qode-title-holder .qode-tab-title, .page-id-14 .qode-accordion-holder .qode-title-holder .qode-tab-title {
+  font-size: 18px;
+}
+.div_preg_frec {
+  min-height: 643px;
+}
+.footer_top {
+    padding: 20px 0 20px 0 !important;
+}
+.text01_footer {
+  margin-bottom: 10px;
+}
+
+.footer_top .column2  a{
+  font-size: 11px !important;
+  text-align: left !important;
+  color: #333 !important;
+  margin-bottom: 1px;
+display: block;
+    line-height: 15px;
+}
+.footer_top .column2  h3{
+
+  text-align: left !important;
+}
+
+ .footer_top .column3  p {
+  font-size: 13px !important;
+      text-align: right !important;
+      color: #333 !important;
+      margin-bottom: 1px;
+      display: block;
+      line-height: 20px;
+      margin-top: 20px;
+}
+
+.footer_top .column3  a {
+  font-size: 13px !important;
+      text-align: right !important;
+      color: #333 !important;
+      margin-bottom: 1px;
+      display: block;
+      line-height: 20px;
+
+}
+
+.footer_top .column3  h3{
+  text-align: right !important;
+}
+.link_dyc {
+  color: #e1e1e1;
+}
+.link_dyc:hover {
+  color: #fff !important;
+}
+
+
+
+
+
+.footer_top .column2  a:hover, .footer_top .column3  a:hover {
+  color: #00a5c1 !important;
+}
+.footer_top  .footer_col2, .footer_top  .footer_col3{
+  text-align: left !important;
+}
+.three_columns>.column1 {
+  width: 25% !important;
+
+}
+.three_columns>.column2  {
+  width: 37.5% !important;
+  margin-left: 4%;
+
+}
+.three_columns>.column3 {
+  width: 32.5% !important;
+}
+
+
+
+
+.footer_top:before {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 0;
+    top: 0;
+    bottom: auto;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url(http://www.angelachamorro.com/wp-content/uploads/2018/04/footer-pattern-top.png);
+    width: 231px;
+    height: 347px;
+}
+.footer_top:after {
+    position: absolute;
+    content: "";
+    display: block;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url(http://www.angelachamorro.com/wp-content/uploads/2018/04/footer-pattern-bottom.png);
+    width: 247px;
+    height: 255px;
+}
+
+ .title{
+      margin-bottom: -100px;
+}
+.procedimientos_row .flip-box-wrap .horizontal_flip_left .ifb-front, .procedimientos_row .ifb-hover {
+  border-color: #00a5c1 !important;
+   height: 320px !important;
+  width: 240px;
+  margin: 0 auto;
+}
+
+header.fixed.scrolled .header_top, .header_top {
+  background-color: #00a5c1 !important;
+}
+
+header.fixed.scrolled .header_bottom {
+  background-color: #eee8d3 !important;
+}
+
+input.wpcf7-form-control.wpcf7-text, input.wpcf7-form-control.wpcf7-date, input.wpcf7-form-control.wpcf7-number, input.wpcf7-form-control.wpcf7-quiz, input.wpcf7-form-control.wpcf7-text, select.wpcf7-form-control.wpcf7-select, textarea.wpcf7-form-control.wpcf7-textarea {
+  border: 1px solid #eee8d3 !important;
+  color: #333 !important;
+}
+
+/* #00a5c1
+#0065a0 */
+
+input.wpcf7-form-control.wpcf7-submit:not([disabled]) {
+    border: 0 !important;
+    background-color: #00a5c1 !important;
+    color: #fff !important;
+}
+input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover {
+
+    background-color: #0065a0 !important;
+}
+
+a:hover, p a:hover {
+  color: #00a5c1 !important;
+}
+
+.boton_procede {
+  width: 200px !important;
+}
+
+.drop_down .second {
+  margin-top: -20px !important;
+}
+
+.twenty20 {
+  margin: 0 auto;
+}
+
+.linK_same:hover {
+  color: #fff !important;
+  font-weight: 700;
+}
+
+.tabs-nav .active {
+  background: #00a5c1;
+}
+.tabs-nav .active a{
+  color: #fff !important;
+  font-weight: 700;
+}
+
+.single-post .blog_holder article .post_image img {
+    position: relative;
+    width: 60% !important;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px)
+{
+  .header_top p {
+    font-size: 14px;
+  }
+  .titulo_responsive {
+    margin-top: -50px;
+  }
+
+}
+@media only screen and (max-width: 570px)
+{
+    #acercafondo {
+      min-height: 780px;
+      margin-top: -150px;
+    }
+    .vc_custom_1523658192593 {
+      margin-bottom: -210px;
+    }
+    .titulo_1 {
+      font-size: 43px !important;
+    }
+    .page-id-8 .qode-accordion-holder{
+      width: 100% !important;
+    }
+    .page-id-8 .frec_colum2 {
+      width: 99% !important;
+    }
+    #wpfm-floating-menu-nav, #back_to_top {
+      display: none;
+    }
+    .qode-accordion-holder .qode-title-holder .qode-tab-title span.qode-tab-title-inner:only-child {
+      padding-left: 0px !important
+    }
+    .page-id-8 .qode-accordion-holder .qode-title-holder .qode-accordion-mark {
+      width: 30px !important;
+      height: 30px !important;
+    }
+    .vc_custom_1523486282980 {
+      padding-right: 0 !important;
+    }
+    .three_columns>.column1, .three_columns>.column2, .three_columns>.column3 {
+      width: 100% !important;
+    }
+    .footer_top .column3 h3, .footer_top .column3 p,  .footer_top .column3 a {
+      text-align: left !important;
+    }
+    .q_tabs.vertical .tabs-nav, .q_tabs.vertical .tabs-container {
+      width: 100% !important;
+    }
+    .page-id-14 .qode-accordion-holder .qode-title-holder .qode-tab-title span.qode-tab-title-inner:only-child {
+      padding-left: 20px !important;
+    }
+}
+
+
+
+.ult-ib-effect-style13 img {
+  transform: translate3d(-160px,0,0) !important;
+}
